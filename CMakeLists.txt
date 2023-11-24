@@ -3,4 +3,6 @@ project(Clion C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Clion main.c)
+add_executable(Clion main.c
+        Queue.c
+        Tree.c)
